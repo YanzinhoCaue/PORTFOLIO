@@ -1,0 +1,53 @@
+.cardSkill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+
+  width: 19rem;
+  height: 28rem;
+  padding: 2rem;
+  margin-top: 3rem;
+
+
+  border: 4px solid var(--purple);
+  border-radius: 2rem;
+
+  background-color: #090909;
+
+  transition: background-color 0.2s step-start;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--purple);
+
+    img {
+      filter: invert(70%);
+    }
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 10rem;
+    height: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+
+    margin-bottom: 1.5rem;
+
+    color: var(--white);
+  }
+
+  p {
+    font-weight: 700;
+
+    text-align: center;
+  }
+}

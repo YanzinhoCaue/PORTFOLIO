@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+
+  inset: 0;
+  
+  margin-left: 5rem;
+  margin-right: 7rem;
+
+  --swiper-navigation-size: 2.5rem;
+  --swiper-navigation-top-offset: 43%;
+  --swiper-navigation-sides-offset: 1.5rem;
+  --swiper-navigation-color: var(--purple);
+
+  --swiper-pagination-color: var(--purple);
+  --swiper-pagination-bullet-inactive-color: var(--purple);
+  --swiper-pagination-bullet-size: 0.7rem;
+}

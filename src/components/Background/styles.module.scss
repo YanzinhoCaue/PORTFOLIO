@@ -1,0 +1,18 @@
+.contentContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  
+  video {
+    position: absolute;
+    z-index: -1;
+    width: auto;
+    min-width: max-content;
+    min-height: max-content;
+  
+    filter: brightness(30%);
+  }
+}
+

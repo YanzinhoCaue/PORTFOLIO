@@ -9,14 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "13.5.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "13.5.4"
+    "sass": "^1.69.3",
+    "swiper": "^10.3.1"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
-    "@types/react-dom": "^18"
+    "@types/react-dom": "^18",
+    "node-sass": "^9.0.0",
+    "react-icons": "^4.11.0",
+    "typescript": "^5"
   }
 }
