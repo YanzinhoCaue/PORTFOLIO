@@ -16,7 +16,7 @@ export function Sidebar() {
         <Link href='https://github.com/YanzinhoCaue' target='_blank'>
           <BiLogoGithub/>
         </Link>
-        <Link href='https://www.linkedin.com/in/yan-cauê-gomes-pereira-a9274715b/' target='_blank'>
+        <Link href='https://linkedin.com/in/yan-cauê-gomes-pereira' target='_blank'>
           <BiLogoLinkedin/>
         </Link>
         <Link href='https://t.me/YanzinhoCaue' target='_blank'>
