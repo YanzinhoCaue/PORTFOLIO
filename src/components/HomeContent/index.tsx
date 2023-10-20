@@ -13,7 +13,7 @@ export function HomeContent() {
           <h2>My name is <span>Yan Cauê</span>!</h2>
           <p>And I'm passionate about technology. This space is where I share my journey and experience as a Full-Stack developer.</p>
           <Link href='mailto:coldecmastercrelan@gmail.com' target='_blank'>
-            <span>Enviar E-mail</span>
+            <span>Send E-mail</span>
             <MdOutgoingMail />
           </Link>
         </div>
